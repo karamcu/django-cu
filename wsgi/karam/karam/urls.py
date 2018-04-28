@@ -18,7 +18,7 @@ from django.conf.urls import include, url
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^movie1/',include('movie1.urls')),
-    url(r'^info/',include('info.urls')),
-    url(r'^info/plus/\d+/$', include('info.urls')),
+#    url(r'^movie1/',include('movie1.urls')),
+#    url(r'^info/',include('info.urls')),
+#    url(r'^info/plus/\d+/$', include('info.urls')),
 ]
